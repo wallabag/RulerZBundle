@@ -18,7 +18,7 @@
         ]
     },
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.4",
         "kphoen/rulerz": "^1.0@dev",
         "kphoen/rulerz-bridge": "^1.0@dev",
         "symfony/framework-bundle": "^3.4|^4.4"

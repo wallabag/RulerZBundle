@@ -24,5 +24,6 @@ services:
     rulerz.command.cache_clear:
         class: KPhoen\RulerZBundle\Command\CacheClearCommand
         public: true
+        arguments: ["%rulerz.cache_directory%", "@filesystem"]
         tags:
             - {name: console.command }

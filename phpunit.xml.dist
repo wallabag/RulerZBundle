@@ -10,6 +10,10 @@
     stopOnFailure               = "false"
     colors                      = "true">
 
+    <php>
+        <env name="SYMFONY_DEPRECATIONS_HELPER" value="999999"/>
+    </php>
+
     <testsuites>
         <testsuite name="RulerZBundle Test Suite">
             <directory suffix="Test.php">./Tests</directory>

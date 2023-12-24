@@ -1,4 +1,4 @@
-RulerZBundle [![Build Status](https://travis-ci.org/K-Phoen/RulerZBundle.svg?branch=master)](https://travis-ci.org/K-Phoen/RulerZBundle)
+RulerZBundle [![Build Status](https://travis-ci.org/wallabag/RulerZBundle.svg?branch=master)](https://travis-ci.org/wallabag/RulerZBundle)
 ============
 
 This bundle integrates [RulerZ](https://github.com/K-Phoen/rulerz) into Symfony.
@@ -9,7 +9,7 @@ Installation
 Require the bundle:
 
 ```
-composer require 'kphoen/rulerz-bundle'
+composer require 'wallabag/rulerz-bundle'
 ```
 
 And declare it into your `app/AppKernel.php` file:

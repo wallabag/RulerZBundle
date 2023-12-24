@@ -18,7 +18,7 @@ class KPhoenRulerZExtensionTest extends AbstractExtensionTestCase
      */
     protected $root;
 
-    public function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -26,12 +26,12 @@ class KPhoenRulerZExtensionTest extends AbstractExtensionTestCase
         $this->setParameter('kernel.debug', true);
     }
 
-    protected function getContainerExtensions()
+    protected function getContainerExtensions(): array
     {
         return [new KPhoenRulerZExtension()];
     }
 
-    protected function getMinimalConfiguration()
+    protected function getMinimalConfiguration(): array
     {
         return [
             'cache' => $this->root->url().'/cache',

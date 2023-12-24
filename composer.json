@@ -29,5 +29,8 @@
         "mikey179/vfsstream": "^1.6.11",
         "matthiasnoback/symfony-dependency-injection-test": "^4.0",
         "liip/rmt": "^1.2"
+    },
+    "replace": {
+        "kphoen/rulerz-bundle": "*"
     }
 }
